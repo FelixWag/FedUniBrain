@@ -29,7 +29,7 @@ We propose a novel Federated Learning (FL) framework **FedUniBrain** that enable
 We recommend using **conda** for installing the dependencies. The following command will create a new environment with all the required dependencies:
 ```
 conda env create -f environment.yml
-conda activate FedUniBrain.
+conda activate FedUniBrain
 ```
 Alternatively, you can install the dependencies manually. The code depends on the following packages (tested on the following versions) using ``Python`` version 3.10. Often, setting up conda environments with configuration files can lead to errors. To save you the trouble, I tested it by installing the packages in this order: ``pytorch`` version 2.0.1; ``pip install monai[all]`` (version 1.3.0; this includes the nibabel reader); ``tqdm`` version 4.67.1; ``wandb`` version 0.19.4; ``conda install numpy=1.26.4`` (**Attention**: a numpy version below 2.0 is needed because of some compatibility issues with monai packages).
 
